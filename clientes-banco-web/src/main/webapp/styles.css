@@ -1,0 +1,314 @@
+
+form {
+    margin: 0 auto;
+    max-width: 700px;
+    width: 80vw;
+    min-width: 300px;
+    padding-top: 3rem;
+    padding-bottom: 2em;
+}
+
+.form-div {
+    border: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    color: #00001a;
+    font-family:monospace;
+    font-size: 20px;
+}
+
+button[type="submit"] {
+    display: block; /* This is the default display property for div elements, so you may omit this line */
+    margin: 0 auto; /* This centers the element horizontally */
+    text-align: center; /* This centers the content inside the element */
+    margin-bottom: 20px; /* Adds 20 pixels of space below the element */
+    margin-top: 30px; /* Adds 20 pixels of space below the element */
+
+    width: 30%;
+    text-decoration: none;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: #1E90FF;
+    color: white;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #000080;
+}
+
+
+/* =========================================================================== */
+.botoes-iniciais {
+    display: block; /* This is the default display property for div elements, so you may omit this line */
+    margin: 0 auto; /* This centers the element horizontally */
+    text-align: center; /* This centers the content inside the element */
+    margin-bottom: 20px; /* Adds 20 pixels of space below the element */
+
+    width: 30%;
+    text-decoration: none;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: #1E90FF;
+    color: white;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botoes-iniciais:hover {
+    background-color: #000080;
+}
+/* =========================================================================== */
+
+
+/* =========================================================================== */
+.botao-teste-conexao {
+    display: block; /* This is the default display property for div elements, so you may omit this line */
+    margin: 0 auto; /* This centers the element horizontally */
+    text-align: center; /* This centers the content inside the element */
+    margin-bottom: 20px; /* Adds 20 pixels of space below the element */
+
+    width: 30%;
+    text-decoration: none;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: #DC143C;
+    color: white;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao-teste-conexao:hover {
+  background-color: #8B0000;
+}
+/* =========================================================================== */
+
+
+
+/* =========================================================================== */
+table {
+      font-family:monospace;
+      border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto;
+}
+
+td, th {
+    border: 0.1px solid #F5F5F5;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+/* =========================================================================== */
+
+
+/* =========================================================================== */
+.botao-voltar {
+    display: block; /* This is the default display property for div elements, so you may omit this line */
+    font-size: 1.1rem;
+
+    margin: 0 auto; /* This centers the element horizontally */
+    text-align: center; /* This centers the content inside the element */
+
+    margin-top: 20px; /* Adds 20 pixels of space below the element */
+
+    width: 100px;
+    /*height: 3em;*/
+
+    text-decoration: none;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    background-color: #DC143C;
+    color: white;
+
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #8B0000;
+
+}
+
+.botao-voltar:hover {
+  background-color: #800000;
+}
+/* =========================================================================== */
+
+
+/* =========================================================================== */
+.remover-cliente {
+    display: block; /* This is the default display property for div elements, so you may omit this line */
+    font-size: 0.8rem;
+
+    margin: 0 auto; /* This centers the element horizontally */
+    text-align: center; /* This centers the content inside the element */
+
+    margin-top: 5px; /* Adds 20 pixels of space below the element */
+    margin-bottom: 5px; /* Adds 20 pixels of space below the element */
+
+    width: 60px;
+    /*height: 3em;*/
+
+    text-decoration: none;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    background-color: #800000;
+    color: white;
+
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #DDA0DD;
+}
+
+.remover-cliente:hover {
+    background-color: #DC143C;
+}
+/* =========================================================================== */
+
+
+/* =========================================================================== */
+.botao-confirmar-remocao {
+    display: block; /* This is the default display property for div elements, so you may omit this line */
+    font-size: 1.1rem;
+
+    margin: 0 auto; /* This centers the element horizontally */
+    text-align: center; /* This centers the content inside the element */
+
+    margin-top: 20px; /* Adds 20 pixels of space below the element */
+
+    width: 200px;
+    /*height: 3em;*/
+
+    text-decoration: none;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    background-color: #800000;
+    color: white;
+
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #DDA0DD;
+
+}
+
+.botao-confirmar-remocao:hover {
+  background-color: #FF0000;
+}
+/* =========================================================================== */
+
+
+/* =========================================================================== */
+.botao-nao-remover {
+    display: block; /* This is the default display property for div elements, so you may omit this line */
+    font-size: 1.1rem;
+
+    margin: 0 auto; /* This centers the element horizontally */
+    text-align: center; /* This centers the content inside the element */
+
+    margin-top: 20px; /* Adds 20 pixels of space below the element */
+
+    width: 200px;
+    /*height: 3em;*/
+
+    text-decoration: none;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    background-color: #20B2AA;
+    color: white;
+
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #2E8B57;
+
+}
+
+.botao-nao-remover:hover {
+  background-color: #2E8B57;
+}
+/* =========================================================================== */
+
+
+/* =========================================================================== */
+.atualizar-cliente {
+    display: block; /* This is the default display property for div elements, so you may omit this line */
+    font-size: 0.8rem;
+
+    margin: 0 auto; /* This centers the element horizontally */
+    text-align: center; /* This centers the content inside the element */
+
+    margin-top: 10px; /* Adds 20 pixels of space below the element */
+    margin-bottom: 10px; /* Adds 20 pixels of space below the element */
+
+    width: 70px;
+    /*height: 3em;*/
+
+    text-decoration: none;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    background-color: #5F9EA0;
+    color: white;
+
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #008B8B;
+}
+
+.atualizar-cliente:hover {
+    background-color: #008B8B;
+}
+/* =========================================================================== */
+
+
+.color-box-id {
+    width: 20px;
+    height: 20px;
+    background-color: #FFB6C1;
+}
+
+.color-box {
+    width: 200px;
+    height: 20px;
+    background-color: #F5FFFA;
+}
+

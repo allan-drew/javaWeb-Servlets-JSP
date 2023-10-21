@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <title>Adicionar Cliente</title>
+
+      <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <!-- ======================================================================== -->
+    <!-- Usando o método POST, enviamos os dados do formulário para o adicionaCliente, que está mapeado na servlet AdicionaClienteServlet -->
+    <form id="clientes-banco-form" action="controller?action=adicionaCliente" method="post">
+
+      <div>
+        <h1> CADASTRO DE CLIENTE </h1>
+      </div>
+
+      <br>
+
+      <div class="form-div">
+        <label for="nome-cliente"> NOME DO CLIENTE </label>
+        <input id="nome-cliente" type="text" name="nome" required placeholder="Nome do cliente">
+      </div>
+
+      <br>
+
+      <div class="form-div">
+        <label for="idade-cliente"> IDADE DO CLIENTE </label>
+        <input id="idade-cliente" type="text" name="idade" required placeholder="Idade do cliente">
+      </div>
+
+      <br>
+
+      <div class="form-div">
+        <label for="email-cliente"> EMAIL DO CLIENTE </label>
+        <input id="email-cliente" type="text" name="email" required placeholder="Email do cliente">
+      </div>
+
+      <br>
+
+      <div class="form-div">
+        <label for="renda-cliente"> RENDA DO CLIENTE </label>
+        <input id="renda-cliente" type="text" name="renda" required placeholder="Renda do cliente">
+      </div>
+
+      <button id="submit" type="submit"> ADICIONAR CLIENTE </button>
+
+
+      <a href="controller?action=listarclientes" class="botao-voltar"> VOLTAR </a>
+
+    </form>
+    <!-- ======================================================================== -->
+
+  </body>
+
+</html>

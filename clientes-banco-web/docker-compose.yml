@@ -1,0 +1,15 @@
+version: '2.4'
+
+services:
+  db:
+    image: mysql #https://hub.docker.com/_/mysql
+    container_name: java-web-clientes-banco
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - java-web-clientes-banco:/var/lib/mysql
+
+volumes:
+  java-web-clientes-banco:
